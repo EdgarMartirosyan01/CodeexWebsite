@@ -8,7 +8,6 @@
 
         <ToggleMenu :isMenuOpen="isMenuOpen" @toggle-menu="toggleMenu" />
 
-
         <div class="socialNetworksContainer">
           <i
               v-for="network in socialNetworks"
@@ -24,6 +23,8 @@
     </div>
   </div>
 </template>
+
+
 
 <script>
 import codeexLogo from "/src/assets/images/logos/codeex-logo.svg";
@@ -61,7 +62,6 @@ export default {
   },
 };
 </script>
-
 
 
 
@@ -123,6 +123,7 @@ export default {
         font-weight: bold;
         background-color: white;
         color: #777777;
+        text-decoration: none;
         margin-right: 15px;
       }
       .navRoutesContainerRoutes:hover {
@@ -135,7 +136,7 @@ export default {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin-right: 5vw;
+        margin-left: 50px;
       }
       .socialNetworksContainer i {
         font-size: 20px;
@@ -149,8 +150,9 @@ export default {
     }
   }
   .languageSwitchingSelector{
-    width: auto;
-    height: auto;
+    width: 50px;
+    height:auto ;
+    margin-left: 20px;
   }
   .burgerIcon {
     display: none; // Hide the burger icon initially

@@ -118,7 +118,7 @@ export default {
 }
 .footerDivision {
   width: 100%;
-  height: 60%;
+  height: 64%;
   background: radial-gradient(circle at 10% 20%, #691ff4 0%, #3296fa 91%);
   display: flex;
   align-items: center;
@@ -156,7 +156,7 @@ export default {
     }
 
     .footerCodexServices {
-      min-width: 400px;
+      min-width: 340px;
       height: 229.975px;
       display: flex;
       flex-direction: row;
@@ -190,7 +190,7 @@ export default {
 
     .footerBottomContainerLogos{
       display: flex;
-      min-width: 400px;
+      min-width: 350px;
       height: 110px;
       justify-content: space-around;
       align-items: center;
@@ -426,8 +426,9 @@ export default {
 }
 @media screen and (max-width: 614px) {
   .footerDivision {
-    height: 120%;
+    height: 122%;
     width: 100%;
+    //padding-bottom: 100px;
    }
   .footerDivision .footerTopContainer{
     width: 90%;
@@ -446,7 +447,7 @@ export default {
     //background-color: rebeccapurple;
   }
   .footerDivision .footerTopContainer .footerCodexServices{
-    width: 400px;
+    width: 300px;
     margin-top: 10px;
     height: 409.975px;
     display: flex;
@@ -456,13 +457,28 @@ export default {
     //background-color: green;
   }
   .footerDivision .footerTopContainer .footerCodexServices .footerCodexServicesTWO{
-    width: 350px;
+    width: 300px;
     height: 150px;
     display: flex;
     //background-color: darkblue;
   }
-  .footerBottomContainer {
+  .footerDivision .footerBottomContainer {
     //background-color: red;
+    width: 300px;
+  }
+  .footerDivision .footerBottomContainer .footerBottomContainerLogos {
+    //background-color: blue;
+    width: 200px;
+    height: 300px;
   }
 }
+
+@media screen and (max-width: 390px) {
+  .footerDivision {
+    height: 132%;
+    width: 100%;
+    //padding-bottom: 100px;
+  }
+
+  }
 </style>

@@ -10,10 +10,8 @@
 
 
 <script>
-import {Back} from "@element-plus/icons-vue";
 export default {
   name: "FooterServices",
-  components: {Back},
   props: {
     title: String,
     items: Array,

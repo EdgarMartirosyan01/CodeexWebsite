@@ -5,6 +5,8 @@
     </label>
     <input id="menu-toggle" type="checkbox" @click="handleOpen"/>
     <ul class="menu" :class="{ 'open': isMenuOpen }" v-show="isMenuOpen">
+      <router-link class="navRoutesContainerRoutes"  to="/">{{ $t('navbar.home') }}</router-link>
+      <AboutDropDown class="navRoutesContainerRoutes"/>
       <router-link
           class="navRoutesContainerRoutes"
           v-for="route in navigationRoutes"
@@ -18,8 +20,10 @@
 </template>
 
 <script>
+import AboutDropDown from "@/components/semantics/ComponentSections/AboutDropDown";
 export default {
   name: "ToggleMenu",
+  components: {AboutDropDown},
   props: {
     isMenuOpen: Boolean,
   },
@@ -31,16 +35,13 @@ export default {
   },
   computed: {
     navigationRoutes() {
-      // Return the same navigationRoutes computed property from NavBar component
       return [
-        { path: "/", label: this.$t('navbar.home') },
-        { path: "/about", label:  this.$t('navbar.about') },
-        { path: "/products", label:  this.$t('navbar.products') },
-        { path: "/blockchain", label:  this.$t('navbar.blockchain') },
-        { path: "/armenia", label:  this.$t('navbar.whyArmenia') },
-        { path: "/careers", label:  this.$t('navbar.careers') },
-        { path: "/contact", label:  this.$t('navbar.contact') },
-        { path: "/blog", label:  this.$t('navbar.blog') },
+        { path: "/products", label: this.$t("navbar.products") },
+        { path: "/blockchain", label: this.$t("navbar.blockchain") },
+        { path: "/armenia", label: this.$t("navbar.whyArmenia") },
+        { path: "/careers", label: this.$t("navbar.careers") },
+        { path: "/contact", label: this.$t("navbar.contact") },
+        { path: "/blog", label: this.$t("navbar.blog") },
       ];
     },
   },
