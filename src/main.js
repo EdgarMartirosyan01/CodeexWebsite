@@ -1,6 +1,6 @@
-import { createApp } from 'vue'
+import {createApp} from 'vue'
 import App from './App.vue'
-import { createI18n } from "vue-i18n"
+import {createI18n} from "vue-i18n"
 import en from "@/locales/en"
 import am from "@/locales/am"
 import ru from "@/locales/ru"

@@ -11,7 +11,7 @@ export default {
     },
     footer: {
         history: "With over 10 years of experience, Codeex is a Yerevan-based tech company with 70+ team members and fast growing. Throughout the years Codeex has developed tech products in Blockchain, Metaverse, decentralized technologies, NFT, cryptocurrencies, web security, fintech, communication, etc.",
-        services:{
+        services: {
             productSection: {
                 products: "PRODUCTS",
                 vone: "Vone",
@@ -38,10 +38,10 @@ export default {
     },
     homePage: {
         vone: {
-          releaseVone: "Codeex is releasing the amazing product!",
-          voneParagraphFirst: "We are thrilled to announce that a groundbreaking secure communication platform is currently under our development",
-          voneParagraphSecond: "Get ready for a game-changing concept of Web3 communication & crypto payments! Experience true privacy & anonymity in the decentralized world with our innovative technology. Soon...",
-          learnMore: "Learn More"
+            releaseVone: "Codeex is releasing the amazing product!",
+            voneParagraphFirst: "We are thrilled to announce that a groundbreaking secure communication platform is currently under our development",
+            voneParagraphSecond: "Get ready for a game-changing concept of Web3 communication & crypto payments! Experience true privacy & anonymity in the decentralized world with our innovative technology. Soon...",
+            learnMore: "Learn More"
         },
         presentation: {
             welcomeToCodeex: "WELCOME TO CODEEX",

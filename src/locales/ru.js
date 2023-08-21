@@ -11,7 +11,7 @@ export default {
     },
     footer: {
         history: "Codex — это технологическая компания со штаб-квартирой в Ереване, насчитывающая более 10 лет опыта, в которой работает более 70 человек, и она быстро растет. На протяжении многих лет Codex разрабатывал технические продукты в области блокчейна, метавселенной, децентрализованных технологий, NFT, криптовалют, веб-безопасности, финансовых технологий, коммуникаций и т. д.",
-        services:{
+        services: {
             productSection: {
                 products: "ПРОДУКТЫ",
                 vone: "Vone",
@@ -55,27 +55,27 @@ export default {
             operationMaintenanceParagraph: "Мы обеспечиваем бесперебойную работу наших продуктов, гарантируя безупречную работу хостинга, серверов и всей экосистемы.\n",
             viewMore: "посмотреть больше"
         },
-       visionMission: {
-           visionParagraph1: "GLOBAL TECH COMPANY",
-           visionParagraph2: "ИЗОБРЕТАЯ ",
-           visionParagraph3: "РЕШЕНИЯ",
-           visionParagraph4: "ДЛЯ",
-           visionParagraph5: "БУДУЩЕГО",
-           vision: "ВИДЕНИЕ",
-           missionParagraph1: "СОЗДАВАТЬ",
-           missionParagraph2: "ЦИФРОВЫЕ РЕШЕНИЯ ПО ВСЕМУ МИРУ",
-           missionParagraph3: "ПОМОЩЬ",
-           missionParagraph4: "МЕЖДУНАРОДНЫМ ТЕХНИЧЕСКИМ ТАЛАНТАМ",
-           missionParagraph5: "И ВОЖДЕНИЕ ",
-           missionparagraph6: "СОВРЕМЕННЫХ ТЕХНОЛОГИЙ.",
-           mission: "МИССИЯ",
-       },
-      productsTranslations: {
+        visionMission: {
+            visionParagraph1: "GLOBAL TECH COMPANY",
+            visionParagraph2: "ИЗОБРЕТАЯ ",
+            visionParagraph3: "РЕШЕНИЯ",
+            visionParagraph4: "ДЛЯ",
+            visionParagraph5: "БУДУЩЕГО",
+            vision: "ВИДЕНИЕ",
+            missionParagraph1: "СОЗДАВАТЬ",
+            missionParagraph2: "ЦИФРОВЫЕ РЕШЕНИЯ ПО ВСЕМУ МИРУ",
+            missionParagraph3: "ПОМОЩЬ",
+            missionParagraph4: "МЕЖДУНАРОДНЫМ ТЕХНИЧЕСКИМ ТАЛАНТАМ",
+            missionParagraph5: "И ВОЖДЕНИЕ ",
+            missionparagraph6: "СОВРЕМЕННЫХ ТЕХНОЛОГИЙ.",
+            mission: "МИССИЯ",
+        },
+        productsTranslations: {
             voneParagraph: "Революционная платформа для безопасной связи в настоящее время находится в стадии разработки…",
             gymParagraph: "GYM Street — это идеальная финансовая метавселенная для доступа к инвестиционным, майнинговым и торговым решениям.",
             gymNetParagraph: "GYM Network — это инвестиционная система-агрегатор DeFi, сочетающая в себе лучшую доходность с высокими вознаграждениями для своих пользователей.",
             moreAboutUsButtons: "Подробнее о нас"
-      },
+        },
         developmentProcess: {
             developmentProcessTitle: "ПРОЦЕСС РАЗРАБОТКИ",
             researchInvestigation: "ИССЛЕДОВАНИЕ И АНАЛИЗ",
