@@ -12,6 +12,7 @@
                 <AboutDropDown class="navRoutesContainerRoutes"/>
                 <router-link
                     class="navRoutesContainerRoutes"
+                    :class="{ activeRoute: $route.path === route.path }"
                     v-for="route in navigationRoutes"
                     :key="route.path"
                     :to="route.path"
@@ -119,9 +120,6 @@ export default {
   methods: {
     changeLanguage(selectedLanguage) {
       this.$i18n.locale = selectedLanguage;
-    },
-    toggleMenu() {
-      this.isMenuOpen = !this.isMenuOpen;
     },
   },
 };
@@ -245,6 +243,9 @@ export default {
     .hiddenRoutes {
         display: none;
     }
+}
+.activeRoute {
+    color: rgba(47, 47, 224, 0.91); /* Change this to the desired active color */
 }
 @media screen and (max-width: 1023px) {
     .web-nav{
@@ -388,7 +389,9 @@ export default {
     font-size: 22px;
     transition: 0.2s;
 }
-
+.activeRoute {
+    color: rgba(47, 47, 224, 0.91); /* Change this to the desired active color */
+}
 @media (min-width: 1023px) {
     .mobile-nav{
         display: none;

@@ -3,11 +3,7 @@
         <div class="GymStreetHeader">
             <ProductDirectoryInnerHeader
                 :title="'GYM STREET'"
-                :paragraph="`GYM Street is the ultimate financial metaverse platform for accessing a variety of investment,
-               mining and trading interaction solutions. The first step to experiencing this innovative digital environment is
-               buying land in the GYM Street Metaverse. Once one becomes a landowner, they can unleash all the products. GYM Street’s
-               goal is to make metaverse a simple yet highly satisfying experience.`"
-                :link="'gymstreet.io'"
+                :paragraph="$t('homePage.productPages.gymStreetParagraph')"
                 :logo="GYMstLogo"
             />
         </div>
@@ -63,5 +59,21 @@ export default {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+@media screen and (max-width: 1155px) {
+    .GymStreetProductsPage {
+        width: 100%;
+        height: 3150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .GymStreetHeader {
+        width: 100%;
+        height: 881px;
+        background-color: #004469;
+    }
 }
 </style>

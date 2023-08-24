@@ -3,8 +3,7 @@
         <div class="GymNetworkHeader">
             <ProductDirectoryInnerHeader
                 :title="'Gym Network'"
-                :paragraph="`Gym Network is a DeFi Aggregator Investment System combining the best yields with high rewards for its users. It provides easy access and saves a lot of precious time making investments in the crypto environment.
-                         The GYMNET token also allows you to make smart and profitable investments in it and receive regular high interest.`"
+                :paragraph="$t('homePage.productPages.gymNetworkParagraph')"
                 :link="'gymnetwork.io'"
                 :logo="GYMnetLogo"
             />
@@ -58,5 +57,14 @@ export default {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+@media screen and (max-width: 1155px) {
+    .GymNetworkProductsPage {
+        width: 100%;
+        height: 3150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 }
 </style>

@@ -1,43 +1,24 @@
 <template>
     <div class="productsPage">
-        <h2>I</h2>
-        <h2>N</h2>
-        <h2>P</h2>
-        <h2>R</h2>
-        <h2>O</h2>
-        <h2>G</h2>
-        <h2>R</h2>
-        <h2>E</h2>
-        <h2>S</h2>
-        <h2>S</h2>
+        <InProgress/>
     </div>
 </template>
 
 <script>
+import InProgress from "@/components/InProgress";
 export default {
-    name: "TechnologyPage"
+    name: "TechnologyPage",
+    components: {InProgress}
 }
 </script>
 
 <style scoped>
 .productsPage {
     width: 100%;
-    height: 2500px;
+    height: 600px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    background: linear-gradient(90deg, rgba(5, 0, 83, 1) 0%, rgb(182, 98, 98) 50%, rgb(8, 0, 255) 100%);
-}
-
-.productsPage h2 {
-    font-size: 130px;
-    font-weight: bolder;
-    margin-top: 100px;
-    color: white;
-}
-
-.productsPage h2:hover {
-    color: #414141;
+    justify-content: center;
 }
 </style>
+

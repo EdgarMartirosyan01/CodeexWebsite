@@ -92,4 +92,50 @@ export default {
         width: 100%;
         height: 100%;
     }
+    @media screen and (max-width: 1155px) {
+        .productDirectoryInnerHeader{
+            width: 100%;
+            height: 700px;
+            /*background-color: #282828;*/
+            margin-top: 100px;
+        }
+        .productDirectoryInnerHeaderContainer{
+            width: 75%;
+            height: 690px;
+            flex-direction: column;
+            justify-content: space-between;
+            /*background-color: #ffc6c6;*/
+        }
+        .productDirectoryInnerHeaderLeftSide{
+            height: 290px;
+            width: 100%;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+        .productDirectoryInnerHeaderLeftSide h2 {
+            font-size: 40px;
+        }
+        .productDirectoryInnerHeaderLeftSide p {
+            font-size: 18.5px;
+        }
+        .productDirectoryInnerHeaderLeftSide a {
+            padding: 3px;
+            font-size: 18.5px;
+        }
+        .productDirectoryInnerHeaderLeftSide a:hover {
+            font-size: 19.5px;
+        }
+
+        .productDirectoryInnerHeaderRightSide{
+            height: 400px;
+            width: 65%;
+        }
+        .productDirectoryInnerHeaderRightSide img {
+            width: 100%;
+            height: 100%;
+        }
+    }
 </style>

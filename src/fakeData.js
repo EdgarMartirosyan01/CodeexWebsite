@@ -14,12 +14,14 @@ import gymStreetImage1 from "/src/assets/images/productComponentsLogos/gym-stree
 import gymStreetImage2 from "/src/assets/images/productComponentsLogos/gym-street-product-image2.webp"
 
 
-
+//Vone Images
 export const VoneTechnologieImages = [java, react, aws, blockchain]
 export const VoneProductDoubleImages = [voneImage1, voneImage2]
-
+//GymNetwork Images
 export const GymNetTechnologieImages = [solidity, vue, zNuxt, nodeJs]
 export const GymNetProductImages = [gymNetImage1, gymNetImage2]
-
+//GymStreet Images
 export const GymStreetTechnologieImages = [solidity, vue, zNuxt, aws, nodeJs]
 export const GymStreetProductImages = [gymStreetImage1, gymStreetImage2]
+
+
