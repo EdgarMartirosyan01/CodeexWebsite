@@ -2,6 +2,12 @@
     <div class="productsPage">
         <InProgress/>
     </div>
+    <div class="productsPage">
+        <InProgress/>
+    </div>
+    <div class="productsPage">
+        <InProgress/>
+    </div>
 </template>
 
 <script>

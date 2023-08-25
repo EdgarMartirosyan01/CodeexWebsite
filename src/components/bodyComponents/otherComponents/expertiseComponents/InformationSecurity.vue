@@ -4,23 +4,21 @@
         <div class="informationSecurityPageParagraph">
             <div class="paragraphContainer">
                 <span>
-                  Information security management system scope includes all the services of Codeex.
+                  {{$t('homePage.informationSecurityPage.information1')}}
                 </span>
                 <span>
-                  To help deliver on our mission, we have developed and deployed a comprehensive yet <br>
-                    pragmatic information security management system, which complies to all applicable legal <br>
-                    and regulatory requirements, and with the ISO/IEC 27001 standard, thereby:
+                 {{$t('homePage.informationSecurityPage.information2')}}
                 </span>
                 <div class="paragraphList">
                     <ul>
-                        <li>Codeex has an obligation to its customers, employees, suppliers, and service providers <br> to protect the confidentiality, integrity, and availability of information assets.</li>
-                        <li>To ensure business continuity and minimize disruption to business functions by <br> preventing and minimizing the impact of security incidents.</li>
-                        <li>To ensure the compliance with relevant information legislation and regulations.</li>
-                        <li>Work to provide the necessary resources to ensure the efficiency and effectiveness of <br> the applied quality management system and strive to motivate, involve, and train <br> employees to achieve the intended goals.</li>
-                        <li>To ensure that all information security controls are implemented to high standards to the <br> benefit of all interested parties.</li>
-                        <li>Report any information security incident or issue to the responsible team.</li>
-                        <li>Maintain confidentiality agreements with external interested parties.</li>
-                        <li>Codeex committed to continual improvement through annual reviews, audits, <br> performance evaluation, management reviews and adopting the best practices.</li>
+                        <li> {{$t('homePage.informationSecurityPage.information3')}}</li>
+                        <li> {{$t('homePage.informationSecurityPage.information4')}}</li>
+                        <li> {{$t('homePage.informationSecurityPage.information5')}}</li>
+                        <li> {{$t('homePage.informationSecurityPage.information6')}}</li>
+                        <li> {{$t('homePage.informationSecurityPage.information7')}}</li>
+                        <li> {{$t('homePage.informationSecurityPage.information8')}}</li>
+                        <li> {{$t('homePage.informationSecurityPage.information9')}}</li>
+                        <li> {{$t('homePage.informationSecurityPage.information10')}}</li>
                     </ul>
                 </div>
             </div>
@@ -91,6 +89,7 @@ export default {
     font-size: 16px;
     color: #282828;
     word-break: break-all;
+    margin-bottom: 15px;
 }
 @media screen and (max-width: 793px) {
     .informationSecurityPage {

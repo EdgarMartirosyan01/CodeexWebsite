@@ -490,10 +490,60 @@ export default {
 
 @media screen and (max-width: 390px) {
     .footerDivision {
-        height: 132%;
+        height: 200%;
         width: 100%;
+        justify-content: space-around;
         //padding-bottom: 100px;
     }
-
+    .footerDivision .footerBottomContainer {
+        //background-color: red;
+        height: 300px;
+        width: 220px;
+    }
+   .footerBottomContainer .footerBottomContainerLogos .footerBottomContainerLogosSocialsClutch {
+       //background-color: greenyellow;
+       height: 300px;
+       width: 220px;
+       flex-direction: column;
+    }
+    .footerBottomContainer .footerBottomContainerLogos .footerBottomCertifications {
+        height: 600px;
+        width: 220px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .footerDivision .footerTopContainer .footerCodeexHistory img {
+        width: 220px;
+        height: 220px;
+    }
+    .footerDivision .footerBottomContainer .footerBottomCopyright p {
+        width: 220px;
+        height: 100px;
+        word-break: break-all;
+    }
+    .footerDivision .footerTopContainer .footerCodexServices {
+        width: 220px;
+        height: 750px ;
+        //background-color: #3296fa;
+    }
+    .footerDivision .footerTopContainer .footerCodexServices .footerCodexServicesTWO {
+        width: 100%;
+        height: 250px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+        //background-color: darkblue;
+    }
+    .footerDivision .footerTopContainer .footerCodexServices .footerCodexServicesONE {
+        width: 100%;
+        height: 250px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+        //background-color: darkblue;
+    }
 }
 </style>
